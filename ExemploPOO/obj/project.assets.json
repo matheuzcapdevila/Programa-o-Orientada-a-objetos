@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Matheus\\Desktop\\Cursos\\DIO\\Programa-o-Orientada-a-objetos\\Programação orientada a objetos\\ExemploPOO\\ExemploPOO.csproj",
+      "projectUniqueName": "C:\\Users\\Matheus\\Desktop\\Cursos\\DIO\\Para o git orientação a objeto\\Programa-o-Orientada-a-objetos\\ExemploPOO\\ExemploPOO.csproj",
       "projectName": "ExemploPOO",
-      "projectPath": "C:\\Users\\Matheus\\Desktop\\Cursos\\DIO\\Programa-o-Orientada-a-objetos\\Programação orientada a objetos\\ExemploPOO\\ExemploPOO.csproj",
+      "projectPath": "C:\\Users\\Matheus\\Desktop\\Cursos\\DIO\\Para o git orientação a objeto\\Programa-o-Orientada-a-objetos\\ExemploPOO\\ExemploPOO.csproj",
       "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Matheus\\Desktop\\Cursos\\DIO\\Programa-o-Orientada-a-objetos\\Programação orientada a objetos\\ExemploPOO\\obj\\",
+      "outputPath": "C:\\Users\\Matheus\\Desktop\\Cursos\\DIO\\Para o git orientação a objeto\\Programa-o-Orientada-a-objetos\\ExemploPOO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
