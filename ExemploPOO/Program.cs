@@ -1,10 +1,44 @@
 ﻿using System;
+using System.Collections.Generic;
 using ExemploPOO.Models;
 using ExemploPOO.Interfaces;
+using ExemploPOO.Helper;
+using System.IO;
 
 namespace ExemploPOO {
     class Program{
-        static void Main(string[] args) =>
+        static void Main(string[] args) {
+
+            var caminho = "C:\\Testes";
+            var caminhoPathCombine = Path.Combine(caminho, "subpasta1"); // Combine, faz de uma maneira que não precise se preocupar com os caminhos das pastas, barras
+            var caminhoArquivo = Path.Combine(caminho, "arquivo-teste.txt");
+            var caminhoArquivoTeste = Path.Combine(caminho, "arquivo-teste.txt");
+            
+            var caminhoArquivoTesteCopia = Path.Combine(caminho, "arquivo-teste-bkp.txt");
+
+            var novoCaminhoArquivo = Path.Combine(caminho, "Pasta teste 3", "arquivo-teste.txt"); //Pode especificar outro nome
+
+
+            var listaString = new List<string> {"Linha 1", "Linha2","Linha3"};
+            var listaStringContinuação = new List<string> {"Linha 4", "Linha5","Linha6"};
+
+            FileHelper helper = new FileHelper();
+            //FileHelper helper = new FileHelper();
+            //  helper.ListarDiretorios(caminho);
+            // helper.ListarArquivosDiretorios(caminho);
+            // System.Console.WriteLine("Criando diretório: " + caminhoPathCombine);
+            // helper.CriarDiretorio(caminhoPathCombine);
+            // helper.ApagarDiretorio(caminhoPathCombine, true);
+            //helper.CriarArquivoTexto(caminhoArquivo,"Olá, Teste de escrita de arquivo");
+            // helper.CriarArquivoStream(caminhoArquivo,  listaString);
+            // helper.AdicionarTextoArquivoStream(caminhoArquivo, listaStringContinuação);
+            // helper.LerArquivoStream(caminhoArquivo);
+            // helper.MoverArquivo(caminhoArquivo, novoCaminhoArquivo, false);
+            // helper.CopiarArquivo(caminhoArquivoTeste, caminhoArquivoTesteCopia, false);
+            helper.DeletarArquivo(caminhoArquivoTesteCopia);
+
+
+
             // Abstração:
             // Pessoa p1 = new Pessoa();
 
@@ -69,7 +103,12 @@ namespace ExemploPOO {
 
             //iCalculadora calc = new Calculadora();
 
-            
+            //Manipulando arquivos
+
+           
+        }
+
+
 
             
 
